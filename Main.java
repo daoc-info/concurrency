@@ -24,13 +24,14 @@ public class Main {
                     me.createProcess("java", "Hello.java");
                     break;    
                 case "tres":
+                    me.createProcess("java", "ReaderMMF.java");
                     me.createProcess("java", "WriterMMF.java", "1");
                     me.createProcess("java", "WriterMMF.java", "2");
-                    me.createProcess("java", "ReaderMMF.java");
                     break;                   
                 default:
                     break;
             }
         }
+        System.out.println("Finishing main process");
     }
 }
